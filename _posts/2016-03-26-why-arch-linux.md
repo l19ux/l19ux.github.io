@@ -5,7 +5,8 @@ title: Probelm based on operations on a sequence
 
 [Problem 2062C](https://codeforces.com/problemset/problem/2062/C)  
 
-<details>
+
+  
   <summary>Hint</summary>
 
   ```scala
@@ -24,10 +25,7 @@ title: Probelm based on operations on a sequence
   value of the sequence sum after performing a certain number of 2.
   ```
 
-</details> 
 
-{% raw %}
-$$
-f(x) = \int_{-\infty}^{\infty} e^{-x^2} dx
-$$
-{% endraw %}
+
+
+
