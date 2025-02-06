@@ -25,3 +25,9 @@ title: Probelm based on operations on a sequence
   ```
 
 </details> 
+
+{% raw %}
+$$
+f(x) = \int_{-\infty}^{\infty} e^{-x^2} dx
+$$
+{% endraw %}
