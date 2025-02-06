@@ -22,4 +22,6 @@ title: Probelm based on operations on a sequence
   and then taking the negation several times. Since 1 does not change
   the sum of the sequence, the answer is the maximum absolute 
   value of the sequence sum after performing a certain number of 2.
+  ```
 
+</details> 
