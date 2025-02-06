@@ -5,11 +5,11 @@ title: Probelm based on operations on a sequence
 
 [Problem 2062C](https://codeforces.com/problemset/problem/2062/C)  
 
-
-  
+<details>
   <summary>Hint</summary>
 
-  ```scala
+  <pre><code>
+  
   Let the reversal be called operation 1, and the difference be called
   operation 2. Consider swapping two adjacent operations: 
   12→21. If the sequence before the operations is [a1,a2,…,an], then
@@ -23,7 +23,10 @@ title: Probelm based on operations on a sequence
   and then taking the negation several times. Since 1 does not change
   the sum of the sequence, the answer is the maximum absolute 
   value of the sequence sum after performing a certain number of 2.
-  ```
+  
+  </code></pre>
+</details>
+
 
 
 
