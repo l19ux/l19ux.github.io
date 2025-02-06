@@ -4,6 +4,7 @@ title: Probelm based on operations on a sequence
 ---
 
 [Problem 2062C](https://codeforces.com/problemset/problem/2062/C)  
+
 <details>
   
 ```scala
