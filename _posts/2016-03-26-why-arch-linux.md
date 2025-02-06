@@ -2,11 +2,8 @@
 layout: post
 title: Probelm based on operations on a sequence
 ---
-[Problem 2062C](https://codeforces.com/problemset/problem/2062/C)
 
-### [Problem 2062C](https://codeforces.com/problemset/problem/2062/C)  
-<details>
-  <summary>💡 Hint / Solution (click to expand)</summary>
+[Problem 2062C](https://codeforces.com/problemset/problem/2062/C)  <details><summary>↪</summary>
   
 ```scala
 Let the reversal be called operation 1, and the difference be called operation 2. Consider swapping two adjacent operations: 
