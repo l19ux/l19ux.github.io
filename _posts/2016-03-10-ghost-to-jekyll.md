@@ -1,32 +1,40 @@
 ---
 layout: post
-title: Switching from Ghost to Jekyll
+title: the “shower” time certainly seems quite important.
 ---
 
-**TL;DR** Use [Jekyll and Github Pages](https://help.github.com/articles/about-github-pages-and-jekyll/) for a cheap and maintainable blog.
+I realized recently that what one thinks about in the shower in the morning is more important than I'd thought. I knew it was a good time to have ideas. Now I'd go further: now I'd say it's hard to do a really good job on anything you don't think about in the shower.
 
-I made a new blog! For the past few months I had been content with [Ghost](https://ghost.org), the publishing platform for professional bloggers. I enjoyed its simplicity and even made a couple themes for it (check them out on my [Github](https://github.com/getmicah)), but as time went on I got tired of paying for server time every month. With all the buzz about "static blogs" I decided to give it a try. Inevitably, I came across Github Pages and Jekyll. Free hosting and a static site blog? Yes, Please.
+Everyone who's worked on difficult problems is probably familiar with the phenomenon of working hard to figure something out, failing, and then suddenly seeing the answer a bit later while doing something else. There's a kind of thinking you do without trying to. I'm increasingly convinced this type of thinking is not merely helpful in solving hard problems, but necessary. The tricky part is, you can only control it indirectly. [1]
 
-It wasn't like there was anything wrong with Ghost. I was just tired of paying to host it on a server. Also, there were quite a few things that I didn't even realize I'd like before using Jekyll.
+I think most people have one top idea in their mind at any given time. That's the idea their thoughts will drift toward when they're allowed to drift freely. And this idea will thus tend to get all the benefit of that type of thinking, while others are starved of it. Which means it's a disaster to let the wrong idea become the top one in your mind.
 
-# Static Site
-One of those being the idea of a static website being generated and no need for a backend. This just makes sense and everything is very fast. Jekyll also automatically generates your Sass files into css which is very handy (no need setting up gulp every project).
+What made this clear to me was having an idea I didn't want as the top one in my mind for two long stretches.
 
-# Local Posts
-Another thing I especially appreciate about Jekyll is how all your posts are stored locally. You just type out your post in markdown in your editor and push to Github to post. Also, its implementation of drafts is extremely useful because you can see how they look locally before making them a post.
+I'd noticed startups got way less done when they started raising money, but it was not till we ourselves raised money that I understood why. The problem is not the actual time it takes to meet with investors. The problem is that once you start raising money, raising money becomes the top idea in your mind. That becomes what you think about when you take a shower in the morning. And that means other questions aren't.
 
-# Variables
-The use of variables has to be my favorite feature. It splits variables up between site and page variables. Site variables would include the name of your blog and the description while page variables would be the name of the post or the date. You can include your own site variables inside the &#95;config.yml file, such as a Google Analytics code or something of the nature.
+I'd hated raising money when I was running Viaweb, but I'd forgotten why I hated it so much. When we raised money for Y Combinator, I remembered. Money matters are particularly likely to become the top idea in your mind. The reason is that they have to be. It's hard to get money. It's not the sort of thing that happens by default. It's not going to happen unless you let it become the thing you think about in the shower. And then you'll make little progress on anything else you'd rather be working on. [2]
 
-# Data Files
-Another way to access info in your blog is through data files. Instead of just variables, data files allow you to create a YAML, JSON, or CSV file to put data into. For example on this site I have /data/websites.yml file where I store the websites I've made, the fields being the name and url, and then loop them into a list inside my html.
+(I hear similar complaints from friends who are professors. Professors nowadays seem to have become professional fundraisers who do a little research on the side. It may be time to fix that.)
 
-# Maintainable
-Everything is through Github, which is where I would be putting my code anyways, so it makes sense that it would also be where I host my website. Making changes to my blog is painless. All I have to do is push the code to Github whenever I make changes (though all changes should be tested locally).
+The reason this struck me so forcibly is that for most of the preceding 10 years I'd been able to think about what I wanted. So the contrast when I couldn't was sharp. But I don't think this problem is unique to me, because just about every startup I've seen grinds to a halt when they start raising money — or talking to acquirers.
 
-# Conclusion
-So why did I switch to Jekyll? Simply the speed and price. The free hosting, static site generation, and complete control make it, in my opinion, the best option for any web developer desiring a blog. With Github Pages there's no need to check on your server nor do you have to worry about having the latest software, Github just does it for you.
+You can't directly control where your thoughts drift. If you're controlling them, they're not drifting. But you can control them indirectly, by controlling what situations you let yourself get into. That has been the lesson for me: be careful what you let become critical to you. Try to get yourself into situations where the most urgent problems are ones you want to think about.
 
-<br>
+You don't have complete control, of course. An emergency could push other thoughts out of your head. But barring emergencies you have a good deal of indirect control over what becomes the top idea in your mind.
 
-For more information about Jekyll, check out the [Docs](https://jekyllrb.com/docs/home/).
+I've found there are two types of thoughts especially worth avoiding — thoughts like the Nile Perch in the way they push out more interesting ideas. One I've already mentioned: thoughts about money. Getting money is almost by definition an attention sink. The other is disputes. These too are engaging in the wrong way: they have the same velcro-like shape as genuinely interesting ideas, but without the substance. So avoid disputes if you want to get real work done. [3]
+
+Even Newton fell into this trap. After publishing his theory of colors in 1672 he found himself distracted by disputes for years, finally concluding that the only solution was to stop publishing:
+
+    I see I have made myself a slave to Philosophy, but if I get free of Mr Linus's business I will resolutely bid adew to it eternally, excepting what I do for my privat satisfaction or leave to come out after me. For I see a man must either resolve to put out nothing new or become a slave to defend it. [4] 
+
+Linus and his students at Liege were among the more tenacious critics. Newton's biographer Westfall seems to feel he was overreacting:
+
+    Recall that at the time he wrote, Newton's "slavery" consisted of five replies to Liege, totalling fourteen printed pages, over the course of a year. 
+
+I'm more sympathetic to Newton. The problem was not the 14 pages, but the pain of having this stupid controversy constantly reintroduced as the top idea in a mind that wanted so eagerly to think about other things.
+
+Turning the other cheek turns out to have selfish advantages. Someone who does you an injury hurts you twice: first by the injury itself, and second by taking up your time afterward thinking about it. If you learn to ignore injuries you can at least avoid the second half. I've found I can to some extent avoid thinking about nasty things people have done to me by telling myself: this doesn't deserve space in my head. I'm always delighted to find I've forgotten the details of disputes, because that means I hadn't been thinking about them. My wife thinks I'm more forgiving than she is, but my motives are purely selfish.
+
+I suspect a lot of people aren't sure what's the top idea in their mind at any given time. I'm often mistaken about it. I tend to think it's the idea I'd want to be the top one, rather than the one that is. But it's easy to figure this out: just take a shower. What topic do your thoughts keep returning to? If it's not what you want to be thinking about, you may want to change something.
