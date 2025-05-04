@@ -1,61 +1,61 @@
 ---
 layout: post
-title: Passing Arguments in Shell Script
+title: bashkort's Advice
 ---
 
-**TL;DR** Just skip to the [good part](#the-good-part)
+#Do you really love competitive programming?
 
-# Basic Arguments
-The other day I started making this shell script program [spotify-now](https://github.com/getmicah/spotify-now), which gets information on the current Spotify song using the dbus message from the media player. When writing this script I wanted to be able to pass in parameters to the script from the command line using arguments.
+Be honest with yourself here. No need to do it if you don't love it. Though make sure not to give up while you're a novice, try to get some understanding of what competitive programming (CP) really is.
 
-This is easy as all you have do is use the `${n}` variable to get the parameter (n being the position of the argument). With my script it looked something like this:
+Rule of thumb: you love something truly if you enjoy even the parts that others find strange. Debugging, for example. 
+
+#On Talent vs Determination
+
+Too much is said on the topic, I don't want to dive deep here. I genuinely believe that we severely underestimate ourselves, and anyone (with enough time and effort) can achieve anything.
+
+Even if you feel you don't perform well at CP, remember that the real IQ test is the ability to get what you want from life. Probably being better than others on codeforces is not your end goal. 
+
+#How not to worry?
+
+You have to worry. Worrying is simply caring about the result. If you are 100% sure in yourself, you'll start to slack off -- skipping upsolving, editorials, etc. Be 99% sure in yourself.
+
+If you don't worry, you work as usual. And ordinary effort never leads to extraordinary results.
+
+#Motivation vs Discipline
+
+They are inseparable. Motivation comes from "motive". What's your motive for practicing CP? If it's genuine, discipline will follow.
+
+In my case, I wanted to get to IOI so bad that I quit all social media, games, and youtube. Didn't come back :)
 
 
-    #!/bin/bash
-    # spotify-now
+#How not to burn out?
 
-    getTitle () {
-        ...
-    }
+I don't believe in burnout. You might burn out solving Millennium Prize problems without making progress for decades. You can't burn out doing CP for just 3-4 years and tracking your progress easily.
 
-    echo "$(getTitle ${1})"
+And even if you got tired, it may be because 1) you've found something more interesting, or 2) you didn't really like CP in the first place, or 3) you're not seeing the progress. If that's the case, maybe you should really try something new.
 
-<hr class="codebreak">
+#What if I have no progress?
 
-    $ ./spotify-now title
-    How Much A Dollar Cost
+If you are working hard enough and there's no improvement, just wait -- often progress comes in leaps. The rating might stand still for a year, and then jump 100 points in one contest. 
 
-Although this solution is quick and easy, it's also very limiting in the parameters you can pass and made for some messy terminal commands.
+#How much to practice?
 
-<h1 id="the-good-part">Using Strings in Arguments</h1>
-When brainstorming for a better way to pass command line arguments I came across the `date` command. This unix program prints out the system's time and date information. What intrigued me about this command is how it took in a date string containing keywords such as the name of the month or what hour it was.
+Rule: In any field, you can't do great things if you're not thinking about it in the shower. 
 
-    $ date '+Date: %b %d'
-    Date: May 02
+I practiced only when I wanted to. In other words, always :) Walking back home -- thinking about a problem. Showering -- thinking about a problem. Half-asleep -- thinking about a problem.|
 
-I decided to find a way to implement this into my script. Usually, something like this would be done with a language such as C or Python but I was determined to stay with a simple shell script seeing as though it was a small program and I didn't want to over complicate things.
+#How to set goals?
 
-To do this sort of thing in shell script all you have to do is replace the keywords in the string argument with the data you want. You have to do this for each keyword and error checking can be tedious but really not much worse than doing in any other language.
+Rule of thumb: if you are not embarrassed to say your goal out loud to your friends, the goal is not ambitious enough.
 
-    #!/bin/bash
-    # spotify-now
+Another rule of thumb: if you don't fail at least 50% of your goals, they are not ambitious enough.
 
-    getArtist () {
-        ...
-    }
-    getTitle () {
-        ...
-    }
+Last rule of thumb: set goals such that if successful, will make the rest of your career look like a footnote. 
 
-    INFO="${1}"
-    INFO="${INFO//"%artist"/$(getArtist)}"
-    INFO="${INFO//"%title"/$(getTitle)}"
-    echo "$INFO"
+#Be weird
 
-<hr class="codebreak">
+Even if you are in a great community, be weird. Most of what people around you believe and do is wrong.
 
-    $ ./spotify-now "%artist - %title"
-    Kendrick Lamar - To Pimp A Butterfly
+#Know yourself. Self-analysis
 
-<br><br>
-Of course all this code is on my [Github](https://github.com/getmicah/spotify-now) and please do fork it and make pull requests regarding any issues or improvements you may have with my code.
+Know your areas of genius and weak spots. Get better at the former and try to eliminate the latter. I keep a diary to help me analyze that. 
