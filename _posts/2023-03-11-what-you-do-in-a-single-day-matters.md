@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WHAT YOU DO ON A SINGLE DAY MATTERS
+title: What you do on a single day matters.
 ---
 
 **TL;DR** Another Insights, that is kind of how one should live life.
