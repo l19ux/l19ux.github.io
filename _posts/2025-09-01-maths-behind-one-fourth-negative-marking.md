@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper taking strategy & Why 100% attempt rate in 1/4th negative marking will get you +ve delta.
+title: Strat & Beating 1/4 Negative Marking.
 ---
 
 # Strat
