@@ -17,7 +17,7 @@ There are two main strategies that have a high success rate and are fairly popul
 
 1.  Attempt every single question.
 
-2.  No marking for review, Don't come back to questions. Enter all the answers you know and use your gut feeling for the ones you don't.
+2.  No marking for review/coming back to question - feed in all answers you know and use gut feeling (first thought) for ones you don't know about.
 
 3.  Don't change your strategy midway through the exam, at any cost.
 
