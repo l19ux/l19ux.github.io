@@ -19,15 +19,15 @@ There are mainly 2 strategies that have a high success rate and are fairly popul
 
 # Why a 100% attempt rate is better
 
-For any given question, the probability of success (guessing the correct answer) is \(\frac{1}{4}\), and the probability of failure is \(\frac{3}{4}\).
+For any given question, the probability of success (guessing the correct answer) is \(\frac{1}{4}\)$$, and the probability of failure is \(\frac{3}{4}\).
 
-The probability of getting exactly 'r' number of successes in 100 questions is given by the binomial probability formula:
+The probability of getting exactly 'r' number of successes in 100 questions is given by the binomial probability formula:  
 $$P(X=r) = \binom{100}{r} \left(\frac{1}{4}\right)^r \left(\frac{3}{4}\right)^{100-r}$$
 
-Using this, the probability of guessing exactly 25 questions correctly is:
+Using this, the probability of guessing exactly 25 questions correctly is:  
 $$P(X=25) = \binom{100}{25} \left(\frac{1}{4}\right)^{25} \left(\frac{3}{4}\right)^{75} \approx 0.091 = 9\%$$
 
-The probability of guessing all 100 correctly is \(P(X=100) \approx 6.22 \times 10^{-61}\), and the probability of guessing all 100 wrong is \(P(X=0) \approx 3.207 \times 10^{-13}\).
+The probability of guessing all 100 correctly is \(P(X=100) \approx 6.22 \times 10^{-61}\), and the probability of guessing all 100 wrong is \(P(X=0) \approx 3.207 \times 10^{-13}\)$$.
 
 This is a nice way to look at it, but what we've calculated here is the probability of getting *exactly* 25 correct. A more practical approach is to see what it takes to nullify the negative marking (a net-zero score from guessing). For that, we need at least \(\frac{20}{100}\) correct answers. To find the true probability of benefiting, we'd have to sum the probabilities of getting \(20, 21, 22, \dots, 100\) questions correct.
 
