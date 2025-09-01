@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Strat & Beating $$\frac{1}{4}$$ Negative Marking
+title: Strat & Beating \(\frac{1}{4}\) Negative Marking
 ---
 
 # Strategy
 
 There are two main strategies that have a high success rate and are fairly popular. Decide which one suits you better:
 
-1.  <small>GA (5m) – English (9-11m) – Reasoning (17-18m) – Math (26-27m)</small>
-2.  <small>English (9-11m) – GK (5m) – Reasoning (17-18m) – Math (26-27m)</small>
+1.  <small>GA (\(5\)m) – English (\(9-11\)m) – Reasoning (\(17-18\)m) – Math (\(26-27\)m)</small>
+2.  <small>English (\(9-11\)m) – GK (\(5\)m) – Reasoning (\(17-18\)m) – Math (\(26-27\)m)</small>
 
 
 
@@ -27,10 +27,10 @@ There are two main strategies that have a high success rate and are fairly popul
 For any given question, the probability of success (guessing the correct answer) is <small>$$\frac{1}{4}$$</small>, and the probability of failure is<small> $$\frac{3}{4}$$</small>.
 
 The probability of getting exactly 'r' successes in 100 questions is given by the binomial probability formula:  
-<small>$$P(X=r) = \binom{100}{r} \left(\frac{1}{4}\right)^r \left(\frac{3}{4}\right)^{100-r}$$</small>
+<small>$$P(X=r) = {}^{100}C_{r} \left(\frac{1}{4}\right)^r \left(\frac{3}{4}\right)^{100-r}$$</small>
 
 Using this, the probability of guessing exactly 25 questions correctly is:
-<small>$$P(X=25) = \binom{100}{25} \left(\frac{1}{4}\right)^{25} \left(\frac{3}{4}\right)^{75} \approx 0.091 = 9\%$$</small>
+<small>$$P(X=25) = {}^{100}C_{25} \left(\frac{1}{4}\right)^{25} \left(\frac{3}{4}\right)^{75} \approx 0.091 = 9\%$$</small>
 
 The probability of guessing all 100 correctly is 
 <small>$$P(X=100) \approx 6.22 \times 10^{-61},$$</small>
