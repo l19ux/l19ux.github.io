@@ -5,12 +5,16 @@ title: Strat & Beating 1/4 Negative Marking.
 
 # Strat
 There are mainly 2 strategies that have a high success rate and are fairly popular, decide which suits u better :
-    1. GA (5 mins) - English (9-11 mins) - Reasoning (17-18 mins) - Math (26-27 mins)
-    2. English (9-11 mins) - GK (5 mins) - Reasoning (17-18 mins) - Math (26-27 mins)
+    
+1. GA (5 mins) - English (9-11 mins) - Reasoning (17-18 mins) - Math (26-27 mins)
+    
+2. English (9-11 mins) - GK (5 mins) - Reasoning (17-18 mins) - Math (26-27 mins)
 
 # Tips 
 1. Attempt every single question (+2, -0.5 and at least 1/4 probability of being correct : EXPLAINED HERE).
+
 2. No marking for review/coming back to question - feed in all answers you know and use gut feeling (first thought) for ones you don't know about.
+
 3. Don't change strategy mid way into the exam, at any cost.
 
 # Why 100% attempt rate is better?
