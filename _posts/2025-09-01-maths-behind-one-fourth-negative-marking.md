@@ -7,8 +7,9 @@ title: Strat & Beating \(\frac{1}{4}\) Negative Marking
 
 There are two main strategies that have a high success rate and are fairly popular. Decide which one suits you better:
 
-1.  <small>GA (\(5\)m) – English (\(9-11\)m) – Reasoning (\(17-18\)m) – Math (\(26-27\)m)</small>
-2.  <small>English (\(9-11\)m) – GK (\(5\)m) – Reasoning (\(17-18\)m) – Math (\(26-27\)m)</small>
+1.  <small>GA (5m) – English (9-11m) – Reasoning (17-18m) – Math (26-27m)</small>  
+
+2.  <small>English (9-11m) – GK (5m) – Reasoning (17-18m) – Math (26-27m)</small>
 
 
 
